@@ -5,7 +5,6 @@ const gallery = document.querySelector('.gallery');
 let galleryList = '';
 
 galleryItems.forEach((image) => {
-	// galleryList += `<li><img src= "${image.preview}" alt = "${image.description}"></li>`;
 	galleryList += `<li>
       <img class="gallery__image" src="${image.preview}" alt="${image.description}" data-source="${image.original}">
   </li>`;
